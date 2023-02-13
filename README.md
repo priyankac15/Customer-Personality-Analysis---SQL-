@@ -88,7 +88,7 @@ Initially 5gb storage is enough for our data. Later on, it can be expanded as pe
 - Learnt about database architecture and use-cases using ER diagrams.
 - Understood referential integrity and data normalization along with basic SQL syntax
 - Got hands on experience of different SQL commands like SELECT and JOIN which helps in manipulating and retrieving data 
-- Learnt trade offs between different architecture types, SDLC and data security 
+- Learnt trade offs between different architecture types, SDLC(Software Development Life Cycle) and data security 
 - Learnt how to generate valuable insights, metrics and reports from raw data
 - Future Ideas – Gaining more knowledge on advanced SQL concepts such as data warehousing, cloud and use of analytics to solve complex business problems. Also working on multiple real-world use-cases or scenarios.
 
