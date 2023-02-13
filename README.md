@@ -34,11 +34,11 @@ The company for web purchases is freemium revenue model as the focus is on build
 
 <h2>BUSINESS RULES </h2>
 
-1.A Customer will purchase Products.
-2.A Customer can use different Platforms to purchase.
-3.Different Promotional offer campaigns can be chosen by the Customer.
-4. A Customer Complain will be registered only if it is less than 2 years old.
-5. Feedback can be provided by the Customer.
+- 1.A Customer will purchase Products.
+- 2.A Customer can use different Platforms to purchase.
+- 3.Different Promotional offer campaigns can be chosen by the Customer.
+- 4. A Customer Complain will be registered only if it is less than 2 years old.
+- 5. Feedback can be provided by the Customer.
 
 <h3> FEW SQL EXAMPLES </h3>
 
@@ -56,7 +56,7 @@ To retrieve the data for the above example, JOIN clause have been used to join t
  To retrieve the data from the Customer and Promotion table, JOIN clause have been used and it has been joined on Customer_ID of both the tables!
 
 
- <h3> Example 3: Example 3 : Customer with 2 kids and are married prefers which platform. </h3>
+ <h3> Example 3 : Customer with 2 kids and are married prefers which platform. </h3>
 
  ![image](https://user-images.githubusercontent.com/117341679/218350940-7c779b39-2f76-4625-9b43-012a53636a8d.png)
 
