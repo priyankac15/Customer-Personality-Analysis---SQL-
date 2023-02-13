@@ -43,23 +43,33 @@ The company for web purchases is freemium revenue model as the focus is on build
 <h3> FEW SQL EXAMPLES </h3>
 
 <h3> Example 1 : Customers who are married and are born after 1980 and purchases wines. </h3>
+ 
+ ![image](https://user-images.githubusercontent.com/117341679/218350731-c72e2944-1d95-4c19-8d15-78a8daf11c0a.png)
 
-![image](https://user-images.githubusercontent.com/117341679/218350048-887d7eea-878a-4f9a-ab55-d4e0fe7ea7e5.png)
 
 To retrieve the data for the above example, JOIN clause have been used to join tables (Customer-Platform-Products_Purchased)
 
 <h3> Example 2 : Customers who are single and their promotional offer details.</h3>
 
-![image](https://user-images.githubusercontent.com/117341679/218350107-2e44634b-8dd8-469d-b9c7-8c03e9026f52.png)
+![image](https://user-images.githubusercontent.com/117341679/218350761-cc9e98f3-c55d-4c88-9038-75eca090142c.png)
+ 
+ To retrieve the data from the Customer and Promotion table, JOIN clause have been used and it has been joined on Customer_ID of both the tables!
 
-To retrieve the data from the Customer and Promotion table, JOIN clause have been used and it has been joined on Customer_ID of both the tables.
+
+ <h3> Example 3: Example 3 : Customer with 2 kids and are married prefers which platform. </h3>
+
+ ![image](https://user-images.githubusercontent.com/117341679/218350940-7c779b39-2f76-4625-9b43-012a53636a8d.png)
+
+ To retrieve the data from the Customer and Platform table, JOIN clause have been used and it has been joined on Platform_ID of both the tables.
+![image](https://user-images.githubusercontent.com/117341679/218350966-8f22b7cf-43e9-4956-90ae-48e79c0c117d.png)
+
 
 <h3> METRICS & ANALYTICS </h3>
 
 Database performance metrics help with database performance monitoring and optimize it for the business. Below listed our primary goals and traced the goal with data and metrics: 
 
-![image](https://user-images.githubusercontent.com/117341679/218350217-96ed2dca-b7a1-4b47-a1ca-99cac815f5d2.png)
-
+![image](https://user-images.githubusercontent.com/117341679/218351011-b3aa29ab-c8d2-4f0e-abbc-483d10b0bc71.png)
+ 
 <h3> SECURITY & ARCHITECTURE </h3>
 
 As we are storing sensitive information of customers (birth year and income), there could be privacy/security concerns for our database.
@@ -76,6 +86,7 @@ We are planning to host the solution for this model on cloud due to the followin
 Initially 5gb storage is enough for our data. Later on, it can be expanded as per the needs
 
 <h3> LESSONS LEARNED & NEXT STEPS </h3>
+ 
 - Learnt about database architecture and use-cases using ER diagrams.
 - Understood referential integrity and data normalization along with basic SQL syntax
 - Got hands on experience of different SQL commands like SELECT and JOIN which helps in manipulating and retrieving data 
